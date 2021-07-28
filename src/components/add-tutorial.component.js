@@ -31,7 +31,7 @@ export default class AddTutorial extends Component {
   }
 
   saveTutorial() {
-    if(document.getElementById("title" && "description").value.length == 0)
+    if(document.getElementById("title" && "description").value.length === 0)
     {
         alert("Empty")
     
